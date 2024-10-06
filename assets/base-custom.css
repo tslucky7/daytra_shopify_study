@@ -1,0 +1,100 @@
+.text-body {
+   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+}
+
+h4,
+.h4 {
+  font-family: var(--font-heading-family);
+  font-style: var(--font-heading-style);
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+}
+
+.link,
+.customer a {
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.select__select {
+   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.text-area {
+   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.text-body {
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.h0 {
+  font-size: 36px;
+}
+
+@media only screen and (min-width: 750px) {
+  .h0 {
+    font-size: 54px;
+  }
+}
+
+h1,
+.h1 {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 750px) {
+  h1,
+  .h1 {
+    font-size: 36px;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 750px) {
+  h2,
+  .h2 {
+    font-size:  24px;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 750px) {
+  h3,
+  .h3 {
+    font-size:  18px;
+  }
+}
+

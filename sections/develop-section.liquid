@@ -1,0 +1,79 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+<div class="image-with-text page-width">
+    <div class="grid grid--gapless grid--1-col grid--2-col-tablet {% if section.settings.advanced-select == 'text-start' %}image-with-text__grid--reverse{% endif %}">
+
+        <div class="image-with-text__media-item grid__item">
+            <div class="img-with-text__media image-with-text__media--adapt {% if section.settings.advanced-image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}" {% if section.settings.advanced-image != blank %}style="padding-bottom: {{ 1| divided_by: section.settings.advanced-image.aspect_ratio| times: 100 }}%;"{% endif %}>
+                {% if section.settings.advanced-image != blank %}
+                    <img src="{{ section.settings.advanced-image | image_url }}" alt="">
+                {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+            </div>
+        </div>
+        <div class="image-with-text__text-item grid__item">
+            <div class="img-with-text__content image-with-text__content--desktop-left image-with-text__content--mobile-left">
+                <h2 class="image-with-text__heading h1">{{ section.settings.advanced-header }}</h2>
+                <div class="image-with-text__text rte">{{ section.settings.advanced-text }}</div>
+                <a href="{{ section.settings.advanced-button_url }}" class="button button--primary">{{ section.settings.advanced-button_text }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "section-dev2",
+        "tag": "section",
+        "class": "section",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "advanced-image",
+                "label": "img"
+            },
+            {
+                "type": "text",
+                "label": "heading",
+                "id": "advanced-header"
+            },
+            {
+                "type": "richtext",
+                "id": "advanced-text",
+                "label": "text"
+            },
+            {
+                "type": "text",
+                "id": "advanced-button_text",
+                "label": "button-text"
+            },
+            {
+                "type": "url",
+                "id": "advanced-button_url",
+                "label": "button-url"
+            },
+            {
+                "type": "select",
+                "id": "advanced-select",
+                "options": [
+                    {
+                        "value": "img-start",
+                        "label": "img-start"
+                    },
+                    {
+                        "value": "text-start",
+                        "label": "text-start"
+                    }
+                ],
+                "default":"img-start",
+                "label": "layout-change"
+            }
+        ],
+        "presets": [
+            {
+                "name": "section-dev2",
+            }
+        ]
+    }
+{% endschema %}

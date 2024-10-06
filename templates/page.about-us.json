@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1644499921648eb8e8": {
+      "type": "rich-text",
+      "blocks": {
+        "16444999217a8d25ba-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_size": "h1"
+          }
+        },
+        "16444999217a8d25ba-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DAILY TRIALは、現在のスニーカーシーンに新たなスタンダードを築き上げるために誕生した<br\/>デザイン性と機能性を兼ね備えたスニーカーブランドです。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16444999217a8d25ba-0",
+        "16444999217a8d25ba-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1644499927c483ecd2": {
+      "type": "image-with-text",
+      "blocks": {
+        "164449992731073d16-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Creation",
+            "heading_size": "h1"
+          }
+        },
+        "164449992731073d16-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ファッショナブルなだけではなく、機能性も重視した<br\/>オリジナリティあふれる商品とサービスをお客さまに提案いたします。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "164449992731073d16-0",
+        "164449992731073d16-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1644499933fc15a293": {
+      "type": "image-with-text",
+      "blocks": {
+        "1644499933b1c55e02-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Evolution",
+            "heading_size": "h1"
+          }
+        },
+        "1644499933b1c55e02-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>お客さまに支持され続けるブランドになるよう<br\/>国内外のカルチャーにアンテナを張り、時代とともに進化していきます。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1644499933b1c55e02-0",
+        "1644499933b1c55e02-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164449994184b0183a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1644499941d64fee6e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Share",
+            "heading_size": "h1"
+          }
+        },
+        "1644499941d64fee6e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ブランドが持つカルチャーや世界観を発信し共有する<br\/>ことで、ブランドの価値を高め、より良いサービスを提供していきます。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1644499941d64fee6e-0",
+        "1644499941d64fee6e-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1644499921648eb8e8",
+    "1644499927c483ecd2",
+    "1644499933fc15a293",
+    "164449994184b0183a"
+  ]
+}
